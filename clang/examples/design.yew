@@ -1,0 +1,19 @@
+##
+Yew -
+A programming language designed and made by Igor Khai and Gijsbert Karens
+##
+
+get builtin "gpio.yew".
+get url "https://github.com/Author/name.yew".
+get local "file.yew".
+
+function greet(String name) does {
+  sayF("Hello, %s", name).
+}.
+
+call greet.
+
+variable var_name: String = "Hello, ".
+variable name: String = "Igor!".
+variable age: Integer = 12.
+variable float: Float = 3,1415
